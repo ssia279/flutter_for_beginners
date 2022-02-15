@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'TapExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.amber,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const TapExample(title: 'Flutter Demo Home Page'),
     );
   }
 }
